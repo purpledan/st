@@ -4,8 +4,10 @@ st is a simple terminal emulator for X which sucks less.
 
 ## Current Defaults
 The default font for this fork is Intel One Mono
+Install using pkg on FreeBSD:
 
-TODO: How to install requirements for FreeBSD
+    pkg install intel-one-mono
+
 
 ## Requirements
 In order to build st you need the Xlib header files.

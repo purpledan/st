@@ -170,9 +170,7 @@ static unsigned int defaultattr = 11;
  */
 static uint forcemousemod = ShiftMask;
 
-/*
- * Internal mouse shortcuts.
- * Beware that overloading Button1 will disable the selection.
+/* * Internal mouse shortcuts.  * Beware that overloading Button1 will disable the selection.
  */
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button   function        argument       release */
@@ -201,6 +199,10 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+	{ TERMMOD,		XK_Up,		zoom,		{.f = +2} },
+	{ TERMMOD,		XK_Down,	zoom,		{.f = -2} },
+	{ TERMMOD,		XK_K,		zoom,		{.f = +1} },
+	{ TERMMOD,		XK_J,		zoom,		{.f = -1} },
 };
 
 /*
