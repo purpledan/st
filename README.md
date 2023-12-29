@@ -8,6 +8,12 @@ Install using pkg on FreeBSD:
 
     pkg install intel-one-mono
 
+Default colourscheme is Elementary from [Gogh](https://github.com/Gogh-co/Gogh).
+
+## Applied Patches
+- [Boxdraw](https://st.suckless.org/patches/boxdraw)
+- [Ligatures](https://st.suckless.org/patches/ligatures)
+- [Font2](https://st.suckless.org/patches/font2)
 
 ## Requirements
 In order to build st you need the Xlib header files.
